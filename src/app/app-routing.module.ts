@@ -5,12 +5,14 @@ import { ManagementComponent } from './components/management/management.componen
 import { ProductsComponent } from './components/products/products.component';
 import { E404Component } from './components/e404/e404.component';
 import { AboutComponent } from './components/about/about.component';
+import { SalesComponent } from './components/sales/sales.component';
 
 const routes: Routes = [
   {path:'home', component:HomeComponent},
   {path:'management', component:ManagementComponent},
   {path:'products', component:ProductsComponent},
   {path:'about', component:AboutComponent},
+  {path:'sales', component:SalesComponent},
   {path:'**', component:E404Component},
   {path:'',  redirectTo:'home', pathMatch:'full'},
   
