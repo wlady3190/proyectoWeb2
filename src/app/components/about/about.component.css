@@ -1,0 +1,46 @@
+
+
+
+#c1 {
+    background-color: #5b9cdc;
+    width: 300px;
+    border-radius: 0.5cm;
+}
+
+.hc1 {
+    font-size: 35px;
+    font-weight: 300;
+    color: black;
+}
+
+#c2 {
+
+    background-color: #5b9cdc;
+    width: 300px;
+    border-radius: 0.5cm;
+    
+}
+.bi{
+  margin-right: 0.2cm; 
+  color: black; 
+}
+.rrss{
+
+    margin-bottom: 1cm;
+    
+}
+h2{
+    text-align: center;
+}
+.container {
+    display: flex; /* Establece el contenedor como flexible */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Establece la altura del contenedor al 100% del alto de la ventana */
+  }
+  
+  .mapa {
+    width: 80%; /* Establece el ancho del mapa */
+    height: 80%; /* Establece la altura del mapa */
+  }
+  
