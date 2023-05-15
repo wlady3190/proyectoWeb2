@@ -11,6 +11,8 @@ import { SalesComponent } from './components/sales/sales.component';
 import { AboutComponent } from './components/about/about.component';
 import { ManagementComponent } from './components/management/management.component';
 import { E404Component } from './components/e404/e404.component';
+import { WhatsappComponent } from './components/whatsapp/whatsapp.component';
+
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { E404Component } from './components/e404/e404.component';
     AboutComponent,
     ManagementComponent,
     E404Component,
+    WhatsappComponent,
+
   ],
   imports: [
     BrowserModule,
