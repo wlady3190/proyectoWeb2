@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "producto": "ActiveStride",
+    "precio": 159.93,
+    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas1.jpg?alt=media&token=0452bab2-f525-4dc4-ba62-1745881644ce",
+    "oferta": true
+  },
+  {
+    "id": 2,
+    "producto": "PowerPulse",
+    "precio": 203.11,
+    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas3.jpg?alt=media&token=51d53148-f7e5-4c45-b728-be960bda569a",
+    "oferta": false
+  },
+  {
+    "id": 3,
+    "producto": "VelocityFit",
+    "precio": 230.45,
+    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas2.jpg?alt=media&token=0164d5cf-1e0b-46ed-b9c7-8f8ac2f0a23a",
+    "oferta": true
+  },
+  {
+    "id": 4,
+    "producto": "FlexForce",
+    "precio": 340.43,
+    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas6.jpg?alt=media&token=e37de876-3915-4d58-9292-d552ba5449f2",
+    "oferta": false
+  },
+  {
+    "id": 5,
+    "producto": "AeroSprint",
+    "precio": 236.76,
+    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas13.jpg?alt=media&token=9850dbb5-c9ee-4a1e-aa45-99dac9f50950",
+    "oferta": false
+  },
+  {
+    "id": 6,
+    "producto": "ElevateX",
+    "precio": 162.16,
+    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas7.jpg?alt=media&token=c506ce01-f661-41cc-b9f4-1df124a219a5",
+    "oferta": false
+  },
+  {
+    "id": 7,
+    "producto": "SwiftStrike",
+    "precio": 303.43,
+    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas8.jpg?alt=media&token=3504ffab-c0c4-4446-83aa-9d048ffee55f",
+    "oferta": false
+  },
+  {
+    "id": 8,
+    "producto": "EnduranceBoost",
+    "precio": 184.27,
+    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas14.jpg?alt=media&token=faf276df-5c4f-4eb5-9039-9367ecb52476",
+    "oferta": false
+  },
+  {
+    "id": 9,
+    "producto": "DynamicGrip",
+    "precio": 229.68,
+    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas13.jpg?alt=media&token=9850dbb5-c9ee-4a1e-aa45-99dac9f50950",
+    "oferta": false
+  },
+  {
+    "id": 10,
+    "producto": "MaxMotion",
+    "precio": 492.1,
+    "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas14.jpg?alt=media&token=faf276df-5c4f-4eb5-9039-9367ecb52476",
+    "oferta": false
+  }
+]
