@@ -12,5 +12,6 @@ export class ProductosService {
 
   getProducto():Observable<any>{
     return this.http.get(this.API_PRODUCTOS);
+    
   }
 }
