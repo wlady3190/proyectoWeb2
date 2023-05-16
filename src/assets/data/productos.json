@@ -11,7 +11,7 @@
     "producto": "PowerPulse",
     "precio": 203.11,
     "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas3.jpg?alt=media&token=51d53148-f7e5-4c45-b728-be960bda569a",
-    "oferta": false
+    "oferta": true
   },
   {
     "id": 3,
@@ -25,7 +25,7 @@
     "producto": "FlexForce",
     "precio": 340.43,
     "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas6.jpg?alt=media&token=e37de876-3915-4d58-9292-d552ba5449f2",
-    "oferta": false
+    "oferta": true
   },
   {
     "id": 5,
