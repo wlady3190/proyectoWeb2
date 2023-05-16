@@ -12,6 +12,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ManagementComponent } from './components/management/management.component';
 import { E404Component } from './components/e404/e404.component';
 import { WhatsappComponent } from './components/whatsapp/whatsapp.component';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { WhatsappComponent } from './components/whatsapp/whatsapp.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

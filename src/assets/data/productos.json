@@ -1,4 +1,4 @@
-[
+{"productos":[
   {
     "id": 1,
     "producto": "ActiveStride",
@@ -69,4 +69,4 @@
     "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas14.jpg?alt=media&token=faf276df-5c4f-4eb5-9039-9367ecb52476",
     "oferta": false
   }
-]
+]}
