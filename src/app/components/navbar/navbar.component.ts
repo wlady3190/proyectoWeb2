@@ -6,6 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  login = localStorage.getItem('login')
+
+    login = localStorage.getItem('login');
+  
+  
+  logOut(){
+    return  this.login = 'false'
+  }
+  
+
 
 }

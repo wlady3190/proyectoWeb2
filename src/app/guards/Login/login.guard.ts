@@ -24,12 +24,10 @@ export class LoginGuard implements CanActivate {
     | UrlTree {
 
       const acceso = localStorage.getItem('login')
-
-      if(acceso ==='true'){
-        this.ruta.navigate(['/inventario'])
+      
+      if(acceso ==='true'){ 
         return true
       }else{
-        this.ruta.navigate(['/registro'])
         return false;
       }
   }

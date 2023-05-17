@@ -31,12 +31,13 @@ export class LoginComponent {
     const aux = this.guardarJSON();
     // console.log(aux);
     this.servicio.getNick().subscribe((p) => {
-      for (const doc of p) {
+      for (let doc of p) {
         if (JSON.stringify(doc.correo) == JSON.stringify(aux.correo) && JSON.stringify(doc.password) == JSON.stringify(aux.password) ) {
-          console.log('Encontrado');
           //Seteando variable global a true
           localStorage.setItem('login', 'true');
+          
           this.ruta.navigate(['/inventario']);
+          console.log('Encontrado');
           break;
         } else {
           console.log('No encontrado');
@@ -47,14 +48,7 @@ export class LoginComponent {
       }
     });
 
-    //para recargar una pagina, pero elimina credenciales. NO USAR ASI
-
-    // location.reload()
   }
-
-  
-
-
 
 }
 

@@ -10,26 +10,31 @@
       <!-- Left elements -->
 
       <!-- Center elements -->
+      
       <div class="order-lg-last col-lg-5 col-sm-8 col-8">
         <div class="d-flex float-end">
-          <div class="login" *ngIf="login == 'false'; else aux ">
-            <a
+            <ng-container *ngIf="login == 'false' else aux ">
+            <!-- <div class="login" > -->
+              <a
               href="login"
               class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center"
               target="_blank"
-            >
+              >
               <i class="fas fa-user-alt m-1 me-md-2"></i>
               <p class="d-none d-md-block mb-0">LOGIN</p>
             </a>
-          </div>
+          <!-- </div> -->
+        </ng-container>
+
           <ng-template  #aux>
-            <a
-              href="https://github.com/mdbootstrap/bootstrap-material-design"
+            <button
+              (click)="logOut()"
               class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center"
             >
               <i class="fas fa-user-alt m-1 me-md-2"></i>
               <p class="d-none d-md-block mb-0">LOG OUT</p>
-            </a>
+            </button>
+            
           </ng-template>
             <a
               href="https://github.com/mdbootstrap/bootstrap-material-design"
@@ -80,6 +85,11 @@
         <li class="nav-item">
           <a class="nav-link text-dark" href="about">About</a>
         </li>
+        
+
+          <li class="nav-item" *ngIf="login == 'true'">
+            <a class="nav-link text-dark" href="inventario">Inventarios</a>
+          </li>
         <div class="nav-item">
 
       

@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./inventario.component.css']
 })
 export class InventarioComponent {
+  // ngOnInit(){
+
+  //   return localStorage.setItem('login','true')
+  // }
+
 
 }

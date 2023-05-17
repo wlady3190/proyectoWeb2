@@ -20,8 +20,8 @@ const routes: Routes = [
   {path:'login', component:LoginComponent},
   {path:'inventario', component:InventarioComponent,canActivate:[LoginGuard]},
   {path:'registro', component:RegistroComponent},
-  {path:'**', component:E404Component},
   {path:'',  redirectTo:'home', pathMatch:'full'},
+  {path:'**', component:E404Component},
   
 
 
