@@ -6,6 +6,9 @@ import { ProductsComponent } from './components/products/products.component';
 import { E404Component } from './components/e404/e404.component';
 import { AboutComponent } from './components/about/about.component';
 import { SalesComponent } from './components/sales/sales.component';
+import { LoginComponent } from './components/login/login.component';
+import { InventarioComponent } from './components/inventario/inventario.component';
+import { RegistroComponent } from './components/registro/registro.component';
 
 const routes: Routes = [
   {path:'home', component:HomeComponent},
@@ -13,6 +16,12 @@ const routes: Routes = [
   {path:'products', component:ProductsComponent},
   {path:'about', component:AboutComponent},
   {path:'sales', component:SalesComponent},
+  {path:'login', component:LoginComponent},
+  {path:'inventario', component:InventarioComponent},
+  {path:'registro', component:RegistroComponent},
+
+
+
   {path:'**', component:E404Component},
   {path:'',  redirectTo:'home', pathMatch:'full'},
   

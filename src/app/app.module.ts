@@ -14,6 +14,9 @@ import { E404Component } from './components/e404/e404.component';
 import { WhatsappComponent } from './components/whatsapp/whatsapp.component';
 import {HttpClientModule} from '@angular/common/http';
 import { InventarioComponent } from './components/inventario/inventario.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegistroComponent } from './components/registro/registro.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -29,12 +32,16 @@ import { InventarioComponent } from './components/inventario/inventario.componen
     E404Component,
     WhatsappComponent,
     InventarioComponent,
+    LoginComponent,
+    RegistroComponent,
+
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
