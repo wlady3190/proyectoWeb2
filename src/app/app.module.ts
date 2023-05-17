@@ -13,6 +13,7 @@ import { ManagementComponent } from './components/management/management.componen
 import { E404Component } from './components/e404/e404.component';
 import { WhatsappComponent } from './components/whatsapp/whatsapp.component';
 import {HttpClientModule} from '@angular/common/http';
+import { InventarioComponent } from './components/inventario/inventario.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import {HttpClientModule} from '@angular/common/http';
     ManagementComponent,
     E404Component,
     WhatsappComponent,
+    InventarioComponent,
 
   ],
   imports: [
