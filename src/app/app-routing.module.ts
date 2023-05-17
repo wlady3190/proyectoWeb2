@@ -9,6 +9,7 @@ import { SalesComponent } from './components/sales/sales.component';
 import { LoginComponent } from './components/login/login.component';
 import { InventarioComponent } from './components/inventario/inventario.component';
 import { RegistroComponent } from './components/registro/registro.component';
+import { LoginGuard } from './guards/Login/login.guard';
 
 const routes: Routes = [
   {path:'home', component:HomeComponent},
@@ -17,7 +18,7 @@ const routes: Routes = [
   {path:'about', component:AboutComponent},
   {path:'sales', component:SalesComponent},
   {path:'login', component:LoginComponent},
-  {path:'inventario', component:InventarioComponent},
+  {path:'inventario', component:InventarioComponent,canActivate:[LoginGuard]},
   {path:'registro', component:RegistroComponent},
 
 
