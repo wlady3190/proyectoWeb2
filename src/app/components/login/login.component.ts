@@ -34,10 +34,12 @@ export class LoginComponent {
       for (let doc of p) {
         if (JSON.stringify(doc.correo) == JSON.stringify(aux.correo) && JSON.stringify(doc.password) == JSON.stringify(aux.password) ) {
           //Seteando variable global a true
+
           localStorage.setItem('login', 'true');
           
           this.ruta.navigate(['/inventario']);
           console.log('Encontrado');
+          window.dispatchEvent(new CustomEvent('user:login'))
           break;
         } else {
           console.log('No encontrado');

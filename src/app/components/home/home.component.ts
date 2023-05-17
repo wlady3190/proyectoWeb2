@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
-  ngOnInit(){
+  // ngOnInit(){
 
-    return localStorage.setItem('login','false')
-  }
+  //   return localStorage.setItem('login','false')
+  // }
 
 }
