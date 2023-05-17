@@ -32,13 +32,15 @@ export class LoginComponent {
     // console.log(aux);
     this.servicio.getNick().subscribe((p) => {
       for (const doc of p) {
-        if (JSON.stringify(doc) == JSON.stringify(aux)) {
+        if (JSON.stringify(doc.correo) == JSON.stringify(aux.correo) && JSON.stringify(doc.password) == JSON.stringify(aux.password) ) {
           console.log('Encontrado');
           //Seteando variable global a true
           localStorage.setItem('login', 'true');
           this.ruta.navigate(['/inventario']);
           break;
         } else {
+          console.log('No encontrado');
+          
           localStorage.setItem('login', 'false');
           this.ruta.navigate(['/registro']);
         }
