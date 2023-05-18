@@ -2,10 +2,10 @@
   "productos": [
     {
       "id": 1,
-      "producto": "ActiveStride",
-      "precio": 159.93,
-      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas1.jpg?alt=media&token=0452bab2-f525-4dc4-ba62-1745881644ce",
-      "oferta": true
+      "producto": "Prueba Actualizar",
+      "precio": "200",
+      "image": "https://media.revistagq.com/photos/63c52723b1d957252085cffd/master/pass/slam-jam-nike-air-force-1-low-black.jpeg",
+      "oferta": "true"
     },
     {
       "id": 2,
@@ -16,10 +16,10 @@
     },
     {
       "id": 3,
-      "producto": "VelocityFit",
-      "precio": 230.45,
-      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas2.jpg?alt=media&token=0164d5cf-1e0b-46ed-b9c7-8f8ac2f0a23a",
-      "oferta": true
+      "producto": "Prueba 2",
+      "precio": "3000",
+      "image": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas14.jpg?alt=media&token=faf276df-5c4f-4eb5-9039-9367ecb52476",
+      "oferta": "false"
     },
     {
       "id": 4,

@@ -27,6 +27,21 @@ export class InventarioComponent {
     }
     this.servicio.postProducto(temp).subscribe(u=>{})
   }
+  updateProducts(id:string,producto:string,precio:string,image:string, oferta:string){
+    const ide: number=parseInt(id);
+    const pr: number=parseFloat(precio)
+    const off: boolean=Boolean(oferta)
+    const temp={
+     
+      "id":id,
+      "producto":producto,
+      "precio":precio,
+      "image":image,
+      "oferta":oferta
+    }
+    this.servicio.putProducto(temp,ide).subscribe(u=>{})
+  }
+
 
 
 }

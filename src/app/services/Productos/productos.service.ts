@@ -17,4 +17,8 @@ export class ProductosService {
   postProducto(user:any):Observable<any>{
     return this.http.post(this.API_PRODUCTOS,user)
   }
+  putProducto(user:any,id:number):Observable<any>{
+    this.API_PRODUCTOS=`${this.API_PRODUCTOS}/${id}`
+    return this.http.put(this.API_PRODUCTOS,user)
+  }
 }
