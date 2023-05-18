@@ -12,6 +12,7 @@ export class NavbarComponent implements OnInit{
   ngOnInit(): void {
     this.loginDetection()
   }
+  
   login = 'false';
 
   logOut() {
@@ -21,6 +22,7 @@ export class NavbarComponent implements OnInit{
 
   }
 
+  //Creaciòn de sesión
   loginDetection(){
       window.addEventListener('user:login', ()=>{
         this.checkLoginStatus()
