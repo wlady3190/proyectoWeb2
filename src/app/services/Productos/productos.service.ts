@@ -14,4 +14,7 @@ export class ProductosService {
     return this.http.get(this.API_PRODUCTOS);
     
   }
+  postProducto(user:any):Observable<any>{
+    return this.http.post(this.API_PRODUCTOS,user)
+  }
 }
