@@ -1,33 +1,103 @@
-<div class="container">
+<form>
+  <div class="mb-3 mt-3">
+    <label for="id" class="form-label">ID:</label>
+
+    <input
+      type="text"
+      class="form-control"
+      id="id"
+      placeholder="Enter ID"
+      #id
+    />
+  </div>
+
+  <div class="mb-3">
+    <label for="title" class="form-label">Producto:</label>
+
+    <input
+      type="text"
+      class="form-control"
+      id="title"
+      placeholder="Enter product"
+      #producto
+    />
+  </div>
+
+  <div class="mb-3">
+    <label for="creator" class="form-label">Precio:</label>
+
+    <input
+      type="number"
+      class="form-control"
+      id="creator"
+      placeholder="Enter price"
+      #precio
+    />
+  </div>
 
 
-<table class="table table-hover">
-    <thead>
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td colspan="2">Larry the Bird</td>
-        <td>@twitter</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+  <div class="mb-3">
+    <label for="image" class="form-label">Image:</label>
+
+    <input
+      type="url"
+      class="form-control"
+      id="image"
+      placeholder="Enter image"
+      #image
+    />
+  </div>
+  <div class="mb-3">
+    <label for="year" class="form-label">Oferta:</label>
+
+    <input
+      type="text"
+      class="form-control"
+      id="year"
+      placeholder="SI/NO"
+      #oferta
+    />
+  </div>
+
+ <!--<button
+    type="submit"
+    class="btn btn-primary"
+    (click)="
+      saveCartoons(
+        title.value,
+        creator.value,
+        year.value,
+        image.value,
+        id.value
+      )
+    "
+  >
+    Enviar
+  </button>
+
+  <button
+    type="submit"
+    class="btn btn-primary"
+    (click)="
+      updateCartoons(
+        title.value,
+        creator.value,
+        year.value,
+        image.value,
+        id.value
+      )
+    "
+  >
+    Actualizar
+  </button>
+
+  <button
+    type="submit"
+    class="btn btn-danger"
+    (click)="deleteCartoons(id.value)"
+  >
+    Delete
+  </button>
+
+
+</form>-->
