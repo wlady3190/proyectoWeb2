@@ -7,10 +7,10 @@ import { ProductosService } from 'src/app/services/Productos/productos.service';
   styleUrls: ['./inventario.component.css']
 })
 export class InventarioComponent {
-  ngOnInit(){
+  // ngOnInit(){
 
-    return localStorage.setItem('login','true')
-  }
+  //   return localStorage.setItem('login','true')
+  // }
   constructor(private servicio:ProductosService){}
 
   saveProducts(id:string,producto:string,precio:string,image:string, oferta:string){
@@ -40,6 +40,10 @@ export class InventarioComponent {
       "oferta":oferta
     }
     this.servicio.putProducto(temp,ide).subscribe(u=>{})
+  }
+  deleteProducts(id:string){
+    const ide: number=parseInt(id);
+      this.servicio.deleteProducto(ide).subscribe(u=>{})
   }
 
 

@@ -1,25 +1,11 @@
 {
   "productos": [
     {
-      "id": 1,
-      "producto": "Prueba Actualizar",
-      "precio": "200",
-      "image": "https://media.revistagq.com/photos/63c52723b1d957252085cffd/master/pass/slam-jam-nike-air-force-1-low-black.jpeg",
-      "oferta": "true"
-    },
-    {
       "id": 2,
       "producto": "PowerPulse",
       "precio": 203.11,
       "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas3.jpg?alt=media&token=51d53148-f7e5-4c45-b728-be960bda569a",
       "oferta": true
-    },
-    {
-      "id": 3,
-      "producto": "Prueba 2",
-      "precio": "3000",
-      "image": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas14.jpg?alt=media&token=faf276df-5c4f-4eb5-9039-9367ecb52476",
-      "oferta": "false"
     },
     {
       "id": 4,
@@ -69,20 +55,6 @@
       "precio": 492.1,
       "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas14.jpg?alt=media&token=faf276df-5c4f-4eb5-9039-9367ecb52476",
       "oferta": false
-    },
-    {
-      "id": "22",
-      "producto": "air focrce",
-      "precio": "100",
-      "image": "https://www.google.com/search?q=air+force+1&tbm=isch&ved=2ahUKEwjcwoGi8v3-AhXzbTABHWECBvYQ2-cCegQIABAA&oq=air+for&gs_lcp=CgNpbWcQARgBMgcIABCKBRBDMgoIABCKBRCxAxBDMgoIABCKBRCxAxBDMgcIABCKBRBDMgoIABCKBRCxAxBDMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6BggAEAcQHjoGCAAQCBAeOgYIABAFEB46BwgAEBgQgAQ6CAgAEIAEELEDUJS1XFj6vFxg2slcaABwAHgAgAH6AYgBvwySAQUwLjcuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=D5dlZJz_HvPbwbkP4YSYsA8&bih=764&biw=1425&rlz=1C5CHFA_enEC918EC919&hl=es#imgrc=1cTnmxq7-LvRXM",
-      "oferta": "true"
-    },
-    {
-      "id": "888",
-      "producto": "prueba",
-      "precio": "88",
-      "image": "https://i8.amplience.net/i/jpl/jd_027536_a?qlt=92",
-      "oferta": "true"
     }
   ]
 }

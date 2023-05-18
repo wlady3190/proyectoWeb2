@@ -21,4 +21,8 @@ export class ProductosService {
     this.API_PRODUCTOS=`${this.API_PRODUCTOS}/${id}`
     return this.http.put(this.API_PRODUCTOS,user)
   }
+  deleteProducto(id:number):Observable<any>{
+    this.API_PRODUCTOS=`${this.API_PRODUCTOS}/${id}`
+    return this.http.delete(this.API_PRODUCTOS)
+  }
 }
