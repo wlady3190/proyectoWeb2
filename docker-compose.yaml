@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  deploy:
+    build:
+      context: .
+      dockerfile: Dockerapp/Dockerfile
+    restart: always
+    image: tiendazapatos
+    ports:
+      - "80:80"
+  json-server:
+    build:
+      context: .
+      dockerfile: Dockerserverproducts/Dockerfile
+    restart: always
+    image: serverpersonal
+    ports:
+      - "3000:3000"
