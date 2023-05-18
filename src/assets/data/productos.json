@@ -56,5 +56,77 @@
       "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas14.jpg?alt=media&token=faf276df-5c4f-4eb5-9039-9367ecb52476",
       "oferta": false
     }
+  ],
+  "personal": [
+    {
+      "id": 1,
+      "nombre": "Quinn",
+      "apellido": "Wesson",
+      "correo": "qwesson0@eventbrite.com",
+      "password": "12345"
+    },
+    {
+      "id": 2,
+      "nombre": "Hewe",
+      "apellido": "Shmyr",
+      "correo": "hshmyr1@cmu.edu",
+      "password": "pRViI8"
+    },
+    {
+      "id": 3,
+      "nombre": "Valaree",
+      "apellido": "Matzaitis",
+      "correo": "vmatzaitis2@si.edu",
+      "password": "PTyJK9A"
+    },
+    {
+      "id": 4,
+      "nombre": "Else",
+      "apellido": "Stemson",
+      "correo": "estemson3@cornell.edu",
+      "password": "dEzQeWff"
+    },
+    {
+      "id": 5,
+      "nombre": "Lilah",
+      "apellido": "Kleinhaut",
+      "correo": "lkleinhaut4@imageshack.us",
+      "password": "xqUf5NATms"
+    },
+    {
+      "id": 6,
+      "nombre": "Elbert",
+      "apellido": "Cheer",
+      "correo": "echeer5@virginia.edu",
+      "password": "1CsZ3mNl7kH"
+    },
+    {
+      "id": 7,
+      "nombre": "Trescha",
+      "apellido": "Allcott",
+      "correo": "tallcott6@blogspot.com",
+      "password": "8L6HSppKyH"
+    },
+    {
+      "id": 8,
+      "nombre": "Addy",
+      "apellido": "Eggins",
+      "correo": "aeggins7@mapquest.com",
+      "password": "ILN4Fw0Wf"
+    },
+    {
+      "id": 9,
+      "nombre": "Barbette",
+      "apellido": "Jaffa",
+      "correo": "bjaffa8@soundcloud.com",
+      "password": "SvpCmIOw9"
+    },
+    {
+      "id": 10,
+      "nombre": "Bennie",
+      "apellido": "Weild",
+      "correo": "bweild9@reuters.com",
+      "password": "miQ8nx9"
+    }
   ]
 }
