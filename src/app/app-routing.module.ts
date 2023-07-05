@@ -22,8 +22,6 @@ const routes: Routes = [
   {path:'registro', component:RegistroComponent},
   {path:'',  redirectTo:'home', pathMatch:'full'},
   {path:'**', component:E404Component},
-  
-
 
 ];
 

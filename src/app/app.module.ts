@@ -34,8 +34,6 @@ import { FormsModule } from '@angular/forms';
     InventarioComponent,
     LoginComponent,
     RegistroComponent,
-
-
   ],
   imports: [
     BrowserModule,

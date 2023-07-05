@@ -1,4 +1,4 @@
-<form>
+<form class="container" id="formulario">
   <div class="mb-3 mt-3">
     <label for="id" class="form-label">ID:</label>
 
@@ -7,6 +7,7 @@
       class="form-control"
       id="id"
       placeholder="Enter ID"
+      required
       #id
     />
   </div>
@@ -19,22 +20,23 @@
       class="form-control"
       id="title"
       placeholder="Enter product"
+      required
       #producto
     />
   </div>
 
   <div class="mb-3">
-    <label for="creator" class="form-label">Precio:</label>
+    <label for="price" class="form-label">Precio:</label>
 
     <input
       type="text"
       class="form-control"
-      id="creator"
+      id="price"
       placeholder="Enter price"
+      required
       #precio
     />
   </div>
-
 
   <div class="mb-3">
     <label for="image" class="form-label">Image:</label>
@@ -48,18 +50,19 @@
     />
   </div>
   <div class="mb-3">
-    <label for="year" class="form-label">Oferta:</label>
+    <label for="offer" class="form-label">Oferta:</label>
 
     <input
       type="text"
       class="form-control"
-      id="year"
+      id="offer"
       placeholder="SI/NO"
+      required
       #oferta
     />
   </div>
 
- <button
+  <button
     type="submit"
     class="btn btn-primary"
     (click)="
@@ -91,6 +94,10 @@
     Actualizar
   </button>
 
+  <button type="reset"
+    class="btn btn-danger"
+  >Limpiar</button>
+
   <button
     type="submit"
     class="btn btn-danger"
@@ -98,6 +105,10 @@
   >
     Delete
   </button>
-
-
 </form>
+
+<script>
+  function limpiarForm() {
+    document.getElementById('id').innerText=""
+  }
+</script>
