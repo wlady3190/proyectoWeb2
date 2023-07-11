@@ -36,13 +36,6 @@
       "oferta": false
     },
     {
-      "id": 8,
-      "producto": "EnduranceBoost",
-      "precio": 184.27,
-      "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas14.jpg?alt=media&token=faf276df-5c4f-4eb5-9039-9367ecb52476",
-      "oferta": false
-    },
-    {
       "id": 9,
       "producto": "DynamicGrip",
       "precio": 229.68,
@@ -55,6 +48,20 @@
       "precio": 492.1,
       "imagen": "https://firebasestorage.googleapis.com/v0/b/proyectoweb2-bf2da.appspot.com/o/zapatillas14.jpg?alt=media&token=faf276df-5c4f-4eb5-9039-9367ecb52476",
       "oferta": false
+    },
+    {
+      "id": "11",
+      "producto": "zapato",
+      "precio": "500",
+      "image": "ok",
+      "oferta": "true"
+    },
+    {
+      "id": "12",
+      "producto": "Tenis",
+      "precio": "25",
+      "image": "ok",
+      "oferta": "false"
     }
   ],
   "personal": [

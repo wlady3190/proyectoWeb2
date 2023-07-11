@@ -8,10 +8,6 @@ import { ProductosService } from 'src/app/services/Productos/productos.service';
 })
 export class InventarioComponent{
 
-  // ngOnInit(){
-
-  //   return localStorage.setItem('login','true')
-  // }
   constructor(private servicio: ProductosService) {}
 
   saveProducts(
@@ -26,11 +22,11 @@ export class InventarioComponent{
     const off: boolean = Boolean(oferta);
 
     const temp = {
-      id: id,
+      id: ide,
       producto: producto,
-      precio: precio,
+      precio: pr,
       image: image,
-      oferta: oferta,
+      oferta: off,
     };
     this.servicio.postProducto(temp).subscribe((u) => {});
 
@@ -51,9 +47,9 @@ export class InventarioComponent{
     const temp = {
       id: id,
       producto: producto,
-      precio: precio,
+      precio: pr,
       image: image,
-      oferta: oferta,
+      oferta: off,
     };
     this.servicio.putProducto(temp, ide).subscribe((u) => {});
   }
