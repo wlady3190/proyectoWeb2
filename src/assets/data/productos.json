@@ -50,18 +50,60 @@
       "oferta": false
     },
     {
-      "id": "11",
-      "producto": "zapato",
-      "precio": "500",
+      "id": 11,
+      "producto": "Chancletas Venus",
+      "precio": 50,
       "image": "ok",
-      "oferta": "true"
+      "oferta": true
     },
     {
-      "id": "12",
-      "producto": "Tenis",
-      "precio": "25",
+      "id": 12,
+      "producto": "Zapatos de escalar",
+      "precio": 200,
       "image": "ok",
-      "oferta": "false"
+      "oferta": true
+    },
+    {
+      "id": 13,
+      "producto": "Zapatos de futbol",
+      "precio": 150,
+      "image": "ok",
+      "oferta": true
+    },
+    {
+      "id": 14,
+      "producto": "Casco de bicicleta",
+      "precio": 80,
+      "image": "ok",
+      "oferta": true
+    },
+    {
+      "id": 15,
+      "producto": "Patineta de cristal",
+      "precio": 150,
+      "image": "ok",
+      "oferta": true
+    },
+    {
+      "id": 16,
+      "producto": "Paracaídas para niño",
+      "precio": 500,
+      "image": "ok",
+      "oferta": true
+    },
+    {
+      "id": 17,
+      "producto": "Rodilleras para gato",
+      "precio": 10,
+      "image": "ok",
+      "oferta": true
+    },
+    {
+      "id": 18,
+      "producto": "Gafas de sombra",
+      "precio": 30,
+      "image": "ok",
+      "oferta": true
     }
   ],
   "personal": [

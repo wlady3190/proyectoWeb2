@@ -53,6 +53,8 @@ export class InventarioComponent{
     };
     this.servicio.putProducto(temp, ide).subscribe((u) => {});
   }
+
+  
   deleteProducts(id: string) {
     const ide: number = parseInt(id);
     this.servicio.deleteProducto(ide).subscribe((u) => {});
